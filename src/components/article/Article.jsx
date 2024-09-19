@@ -3,7 +3,7 @@ import './article.css';
 
 const Article = ({ imgUrl, date, text }) => (
   <div className="gpt3__blog-container_article">
-    <div className="gpt3__blog-container_article-image">
+    <div className="gpt3__blog-container_article-image scale-up-center">
       <img src={imgUrl} alt="blog_image" />
     </div>
     <div className="gpt3__blog-container_article-content">
